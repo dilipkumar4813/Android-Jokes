@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 25
@@ -17,15 +18,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
-    productFlavors {
-        free {
-            applicationId "iamdilipkumar.com.cloudjokes.free"
-        }
-        paid {
-            applicationId "iamdilipkumar.com.cloudjokes.paid"
-        }
-    }
 }
 
 dependencies {
@@ -42,5 +34,6 @@ dependencies {
 
     compile 'com.google.api-client:google-api-client:1.21.0'
     compile 'com.google.http-client:google-http-client-android:1.12.0-be‌​ta'
+    compile 'com.google.android.gms:play-services-ads:9.0.0'
     compile 'com.android.support:multidex:1.0.1'
 }
