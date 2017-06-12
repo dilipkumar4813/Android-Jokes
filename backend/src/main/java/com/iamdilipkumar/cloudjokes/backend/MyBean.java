@@ -1,17 +1,19 @@
 package com.iamdilipkumar.cloudjokes.backend;
 
+import com.jokelib.Joke;
+
 /**
  * The object model for the data we are sending through endpoints
  */
 public class MyBean {
 
-    private String myData;
+    private Joke mJoke;
 
-    public String getData() {
-        return myData;
+    public MyBean() {
+        mJoke = new Joke();
     }
 
-    public void setData(String data) {
-        myData = data;
+    public String getJoke() {
+        return mJoke.getRandomJoke();
     }
 }
