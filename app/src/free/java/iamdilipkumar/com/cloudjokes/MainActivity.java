@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
+    class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
         private MyApi myApiService = null;
         ProgressDialog progress;
 
