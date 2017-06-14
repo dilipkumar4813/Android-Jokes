@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "978404625078",
+    "firebase_url": "https://cloud-jokes.firebaseio.com",
+    "project_id": "cloud-jokes",
+    "storage_bucket": "cloud-jokes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978404625078:android:b08a1b9f7e993e48",
+        "android_client_info": {
+          "package_name": "iamdilipkumar.com.cloudjokes.paid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978404625078-oi50fdejstqsk00p8c36npk22tg1rbgg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "iamdilipkumar.com.cloudjokes.paid",
+            "certificate_hash": "c3ddd2d9667c825d63e61da2028c46cbf56e17ef"
+          }
+        },
+        {
+          "client_id": "978404625078-df98sp641p45963t8is0kamv76ralju3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtkbK0TXgShcjzDmmjS2F9cyRlMoz5hJw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978404625078-df98sp641p45963t8is0kamv76ralju3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

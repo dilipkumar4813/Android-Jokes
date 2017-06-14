@@ -21,6 +21,9 @@ android {
     productFlavors {
         free {
             applicationId "iamdilipkumar.com.cloudjokes.free"
+            dependencies {
+                compile 'com.google.firebase:firebase-ads:9.0.0'
+            }
         }
 
         paid {
@@ -39,8 +42,6 @@ dependencies {
 
     compile 'com.google.api-client:google-api-client:1.21.0'
     compile 'com.google.http-client:google-http-client-android:1.12.0-be‌​ta'
-
-    compile 'com.google.firebase:firebase-ads:9.0.0'
 }
 
 apply plugin: 'com.google.gms.google-services'
