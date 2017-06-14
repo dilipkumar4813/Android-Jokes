@@ -17,6 +17,16 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    productFlavors {
+        free {
+            applicationId "iamdilipkumar.com.cloudjokes.free"
+        }
+
+        paid {
+            applicationId "iamdilipkumar.com.cloudjokes.paid"
+        }
+    }
 }
 
 dependencies {
