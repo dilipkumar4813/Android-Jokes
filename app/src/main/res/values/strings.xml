@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Cloud Jokes</string>
-    <string name="joke_text">Tell me a joke</string>
+    <string name="instructions">Press the button for a delicious joke!</string>
+    <string name="joke_text">Joke me</string>
 </resources>

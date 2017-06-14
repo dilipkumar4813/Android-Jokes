@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 25
@@ -23,10 +22,15 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.google.code.findbugs:jsr305:2.0.1'
 
+    compile project(':jokedisplayer')
     compile project(path: ':backend', configuration: 'android-endpoints')
 
-    // compile 'com.google.code.findbugs:jsr305:2.0.1'
-    // compile 'com.google.api-client:google-api-client:1.21.0'
-    // compile 'com.google.http-client:google-http-client-android:1.12.0-be‌​ta'
+    compile 'com.google.api-client:google-api-client:1.21.0'
+    compile 'com.google.http-client:google-http-client-android:1.12.0-be‌​ta'
+
+    compile 'com.google.firebase:firebase-ads:9.0.0'
 }
+
+apply plugin: 'com.google.gms.google-services'
